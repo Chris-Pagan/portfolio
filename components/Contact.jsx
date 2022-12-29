@@ -30,12 +30,12 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available for freelance positions. Contact me and
-                  let&apos;s talk
+                  let&apos;s talk.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-center space-x-20 p-6">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a href="https://www.linkedin.com/in/chris-pagan/"><FaLinkedinIn /></a>
                   </div>

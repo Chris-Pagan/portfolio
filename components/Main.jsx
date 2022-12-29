@@ -1,7 +1,7 @@
 import React from 'react'
-import { AiOutlineGithub, AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaLinkedinIn, FaMastodon } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
+import { FaLinkedinIn, FaMastodon, FaGithub } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Main = () => {
   return (
@@ -17,19 +17,19 @@ const Main = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                 <div className="rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-200">
-                  <FaLinkedinIn />
+                <a href="https://www.linkedin.com/in/chris-pagan/"><FaLinkedinIn /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-200">
-                  <AiOutlineGithub />
+                <a href="https://github.com/Chris-Pagan"><FaGithub /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-200">
                   <FaMastodon />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-200">
+                  <Link href="/#contact">
+
                   <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-200">
-                  <BsFillPersonLinesFill />
+                  </Link>
                 </div>
 
                 </div>
