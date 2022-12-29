@@ -51,7 +51,7 @@ const Contact = () => {
               <form 
                 action='https://getform.io/f/4ed4a94a-5409-433f-88b8-c798e89815bc'
                 method='POST'
-                enctype="multipart/form-data"
+                encType="multipart/form-data"
                 >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
