@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import comingSoon from "../public/assets/coming-soon.png";
+import weatherApp from "../public/assets/project_images/Weather_App.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -14,9 +15,10 @@ const Projects = () => {
         <h2 className="py-4">What I have built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Project 1"
-            backgroundImg={comingSoon}
-            projectUrl="/project1"
+            title="Weather App"
+            backgroundImg={weatherApp}
+            projectFramework='Next.Js'
+            projectUrl="/weather"
           />
           <ProjectItem
             title="Project 2"
