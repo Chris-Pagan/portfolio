@@ -1,8 +1,6 @@
-import Image from "next/image";
 import React from "react";
 import comingSoon from "../public/assets/coming-soon.png";
 import weatherApp from "../public/assets/project_images/Weather_App.png";
-import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/assets/logo.png"
+import LogoAlt from '../public/assets/logo_alt.png'
 import {
   AiOutlineClose,
   AiOutlineMenu,
@@ -29,8 +30,8 @@ const Navbar = () => {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
+      setNavBg('#1f2937');
+      setLinkColor('#ecf0f3');
     }
   }, [router]);
 
@@ -61,10 +62,10 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image
-            src={Logo}
+            src={LogoAlt}
             alt="the letters CP colored purple"
-            width="125"
-            height="50"
+            width="200"
+             height="125"
           />
         </Link>
         <div>
@@ -102,7 +103,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] m:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-300"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] m:w-[45%] h-screen bg-[#1f2937] p-10 ease-in duration-300"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-300"
           }
         >
@@ -110,10 +111,10 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/logo.png"
+                  src={LogoAlt}
                   alt="/"
-                  width="87"
-                  height="35"
+                  width="200"
+                  height="50"
                 />
               </Link>
               <div

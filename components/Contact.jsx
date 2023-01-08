@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
         <h2 className="py-4">Get in touch with me</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-300 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
               <div>
                 <Image
@@ -36,17 +36,17 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
                 <div className="flex items-center justify-center space-x-20 p-6">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a href="https://www.linkedin.com/in/chris-pagan/"><FaLinkedinIn /></a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-md shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a href="https://github.com/Chris-Pagan"><FaGithub /></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-lg shadow-gray-300 rounded-xl lg:p-4">
             <div className="p-4">
               <form 
                 action='https://getform.io/f/4ed4a94a-5409-433f-88b8-c798e89815bc'
@@ -97,8 +97,8 @@ const Contact = () => {
           </div>
           <div className="flex justify-center py-12">
             <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+            <div className="rounded-full shadow-md shadow-gray-300 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-gray-200" size={30} />
             </div>
             </Link>
           </div>
