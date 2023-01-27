@@ -1,6 +1,7 @@
 import React from "react";
 import comingSoon from "../public/assets/coming-soon.png";
 import weatherApp from "../public/assets/project_images/Weather_App.png";
+import Blog from '../public/assets/project_images/blog_landing.png'
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -19,11 +20,12 @@ const Projects = () => {
             projectUrl="/weather"
           />
           <ProjectItem
-            title="Project 2"
-            backgroundImg={comingSoon}
-            projectUrl="/project2"
+            title="Full-Stack Blog"
+            backgroundImg={Blog}
+            projectFramework='Next.Js'
+            projectUrl="/blog"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Project 3"
             backgroundImg={comingSoon}
             projectUrl="/project3"
@@ -32,7 +34,7 @@ const Projects = () => {
             title="Project 4"
             backgroundImg={comingSoon}
             projectUrl="/project4"
-          />
+          /> */}
         </div>
       </div>
     </div>
