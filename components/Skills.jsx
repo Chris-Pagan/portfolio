@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
@@ -14,7 +15,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/html.png"
+                  src="../public/assets/html.png"
                   alt="logo for HTML"
                   width="64"
                   height="64"
@@ -29,7 +30,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/css.png"
+                  src="../public/assets/css.png"
                   alt="logo for CSS"
                   width="64"
                   height="64"
@@ -44,7 +45,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/javascript.png"
+                  src="../public/assets/javascript.png"
                   alt="logo for JavaScript"
                   width="64"
                   height="64"
@@ -59,7 +60,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/node.png"
+                  src="../public/assets/node.png"
                   alt="logo for NodeJS"
                   width="64"
                   height="64"
@@ -74,7 +75,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/tailwind.png"
+                  src="../public/assets/tailwind.png"
                   alt="logo for TailwindCSS"
                   width="64"
                   height="64"
