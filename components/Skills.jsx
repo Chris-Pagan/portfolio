@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import HtmlImage from '../public/assets/html.png'
+import CssImage from '../public/assets/css.ping'
+import JsImg from '../public/assets/javascript.png'
+import NodeJs from '../public/assets/node.png'
+import TailwindImg from '../public/assets/tailwind.png'
+import ReactJsImg from '../public/assets/react.png'
+import NextJsImg from '../public/assets/nextjs.png'
+import GitHubImg from '../public/assets/github.png'
 
 
 const Skills = () => {
@@ -15,7 +23,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="../public/assets/html.png"
+                  src={HtmlImage}
                   alt="logo for HTML"
                   width="64"
                   height="64"
@@ -30,7 +38,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="../public/assets/css.png"
+                  src={CssImage}
                   alt="logo for CSS"
                   width="64"
                   height="64"
@@ -45,7 +53,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="../public/assets/javascript.png"
+                  src={JsImg}
                   alt="logo for JavaScript"
                   width="64"
                   height="64"
@@ -60,7 +68,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="../public/assets/node.png"
+                  src={NodeJs}
                   alt="logo for NodeJS"
                   width="64"
                   height="64"
@@ -75,7 +83,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="../public/assets/tailwind.png"
+                  src={TailwindImg}
                   alt="logo for TailwindCSS"
                   width="64"
                   height="64"
@@ -90,7 +98,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/react.png"
+                  src={ReactJsImg}
                   alt="logo for React"
                   width="64"
                   height="64"
@@ -105,7 +113,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/nextjs.png"
+                  src={NextJsImg}
                   alt="logo for NextJS"
                   width="64"
                   height="64"
@@ -120,7 +128,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src="/../public/assets/github.png"
+                  src={GitHubImg}
                   alt="logo for GitHub"
                   width="64"
                   height="64"
