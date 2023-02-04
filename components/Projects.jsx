@@ -1,7 +1,7 @@
 import React from "react";
-import comingSoon from "../public/assets/coming-soon.png";
-import weatherApp from "../public/assets/project_images/Weather_App.png";
-import Blog from '../public/assets/project_images/blog_landing.png'
+import comingSoon from "../public/coming-soon.png";
+import weatherApp from "../public/project_images/Weather_App.png";
+import Blog from '../public/project_images/blog_landing.png'
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {

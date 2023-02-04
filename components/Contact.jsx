@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ContactImage from "../public/assets/contact.jpg";
+import ContactImage from "../public/contact.jpg";
 import Link from "next/link";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
