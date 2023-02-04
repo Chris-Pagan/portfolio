@@ -23,7 +23,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src={require("../public/html.png")}
+                  src={require("/html.png")}
                   alt="logo for HTML"
                   width="64"
                   height="64"
