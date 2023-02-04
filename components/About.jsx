@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link"
-import Computer from '../public/computer-setup.jpg'
+
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-lg shadow-gray-200 rounded-xl flex items-center justify-center
         p-4 hover:scale-105 ease-in duration-200">
           <Image
-            src={Computer}
+            src={require("../public/computer-setup.jpg")}
             alt="/"
             width="640"
             height="426"
