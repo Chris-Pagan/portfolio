@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import comingSoon from "../public/assets/coming-soon.png";
+import comingSoon from "../public/coming-soon.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 export const project3 = () => {
   return (

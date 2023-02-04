@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import BlogPost from "../public/assets/project_images/blog_post.png";
+import BlogPost from "../public/project_images/blog_post.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 export const project2 = () => {

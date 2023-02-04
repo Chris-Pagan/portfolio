@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import CssImage from '../public/css.ping'
+import CssImage from '../public/css.png'
 import JsImg from '../public/javascript.png'
 import NodeJs from '../public/node.png'
 import TailwindImg from '../public/tailwind.png'
@@ -23,7 +23,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-4">
                 <Image
-                  src={require("/html.png")}
+                  src={require("../public/html.png")}
                   alt="logo for HTML"
                   width="64"
                   height="64"

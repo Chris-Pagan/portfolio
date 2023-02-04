@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import weatherApp from "../public/assets/project_images/Weather_App.png";
+import weatherApp from "../public/project_images/Weather_App.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 export const project1 = () => {
   return (
