@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link"
-import Computer from '../public/assets/computer-setup.jpg'
+import Computer from '../public/computer-setup.jpg'
 
 const About = () => {
   return (
